@@ -50,6 +50,7 @@
 }
 
 h1{ 
+    font-style: bold; 
     font-weight: bold; 
     color: #F9FAF8;
 }
@@ -84,6 +85,8 @@ a{
     background-color: #3882f6; 
     color: #F9FAF8;
     border-radius: 4px; 
+    height: 2rem;
+    width: 7rem;
     border: none; 
 }
 
@@ -120,11 +123,12 @@ h2{
 
 #quote{
     background-color:#E5E7Eb; 
+    color: #1F2937; 
     font-family: "Roboto", san-serif; 
     padding-top: 4rem; 
     padding-left: 12rem; 
     padding-right: 12rem; 
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
     font-size: 32px; 
     font-style: italic; 
     flex-wrap: wrap;
@@ -132,8 +136,56 @@ h2{
 
 }
 
-  .foot{ 
-      position: fixed; 
-      bottom: 0; 
+#citation{
+    font-family: "Roboto", san-serif; 
+    font-style: bold; 
+    font-weight: 9000; 
+    background-color:#E5E7Eb; 
+    text-align: right; 
+    padding-right: 10rem; 
+    padding-bottom: 3rem;
+}
+
+.lower-section{
+    display: flex; 
+    padding: 4rem;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.call-to-action{
+    display: flex;
+    font-family: "Roboto", san-serif; 
+    flex-shrink: 2;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px; 
+    padding: 12px;
+    width: 40rem; 
+
+}
+
+#lower-button{
+    height: 2rem;
+    width: 7rem;
+    margin-top: 2rem; 
+    margin-left: 1rem;
+    border: solid; 
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 4px; 
+    background-color: #3882f6;
+}
+
+
+
+  .footer{ 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      background-color: #1F2937;
+      padding: 2rem;
+      font-family: "Roboto", san-serif; 
+      color: #E5E7Eb;
       
   }

@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.body{ 
+    font-family: "Roboto", san-serif;  
+    height: 60rem; 
+}
+
+
+
+.header{
+    display: flex; 
+    flex-shrink: 1; 
+    justify-content: space-between; 
+    background-color: #1F2937;
+}
+
+#logo{
+    height: 7rem; 
+    width: 7rem; 
+    padding: 0px 0rem 0px 5rem; 
+}
+
+
+.header-list{
+    display: flex; 
+
+}
+
+.content-upper{ 
+    font-family: "Roboto", san-serif;  
+    background-color: #1F2937;
+    display: flex; 
+}
+
+#pic2{
+    height: 24rem; 
+    width: 24rem;
+    margin: 10px; 
+    padding: 0px 10rem 0px 1rem; 
+}
+
+#upper-text{
+    display: flex; 
+    flex-shrink: 1; 
+    justify-content: center;
+    padding: 1rem; 
+    margin: 4rem;
+    flex-direction: column; 
+}
+
+h1{ 
+    font-weight: bold; 
+    color: #F9FAF8;
+}
+
+
+p{
+    color: #E5E7Eb;
+}
+
+ul{
+    list-style-type: none; 
+    display: flex; 
+    gap: 1rem;
+    text-decoration: none;
+    justify-content: space-evenly; 
+    padding: 0px 13rem 0px 4rem; 
+    align-items: center; 
+    
+
+  }
+
+
+a{
+    color: #E5E7Eb;
+    font-size: 18px; 
+    text-decoration: none;
+    font-family: "Roboto", san-serif;  
+
+  }
+
+.sign-up{
+    background-color: #3882f6; 
+    color: #F9FAF8;
+    border-radius: 4px; 
+    border: none; 
+}
+
+.random-info{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 4rem; 
+}
+
+.random-img{
+    height: 8rem; 
+    width: 8rem;
+    outline: solid;
+    border-radius: 16px; 
+}
+
+.item{
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    font-family: "Roboto", san-serif;
+}
+
+h2{
+    text-align: center; 
+    font-weight: bold; 
+    font-family: "Roboto", san-serif; 
+}
+
+#quote{
+    background-color:#E5E7Eb; 
+    font-family: "Roboto", san-serif; 
+    padding-top: 4rem; 
+    padding-left: 12rem; 
+    padding-right: 12rem; 
+    padding-bottom: 4rem;
+    font-size: 32px; 
+    font-style: italic; 
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+
+}
+
+  .foot{ 
+      position: fixed; 
+      bottom: 0; 
+      
+  }
